@@ -1,0 +1,165 @@
+/*
+    UpennLPS HW1 css document for recommended assignment
+    Author: Kevin Wang
+    Date Due: 2019/01/26
+*/
+
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom-style:solid;
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+    height:120px;
+    width: 100%; 
+    position: fixed;
+    top:0%;
+    left: 0%;
+    z-index: 2;
+}
+
+
+.topBar{
+    margin: auto;
+    position: relative;
+    width: 960px;
+    height:120px;
+}
+
+.nameBox{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding:10px 20px 0px 20px;
+    margin:0;
+    position: absolute;
+    bottom:0%;
+    left:0%;
+}
+
+.navHeader{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin:auto;
+    padding-top:10px;
+    height:100%;
+    position: relative;
+    top:-10px;
+    width:960px;
+  
+}
+
+.tabs{
+    position: absolute;
+    bottom: 30%;
+    right:0%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#noUL{
+    text-decoration: none;
+}
+
+.leftCell{
+    padding-right: 10px;
+}
+
+.centerCell{
+    border-color: rgb(230, 230, 230);
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    padding: 0 10px 0 10px;
+}
+
+.rightCell{
+    padding-left:10px;
+}
+
+
+
+body{
+    background-image: url(../images/backgroundImage.png); 
+    margin-bottom: 130px; 
+}
+
+.mainContentBox{
+    width:960px;
+    margin:auto;
+    margin-top: 150px;
+    height:auto;
+    background-color: #ffffff;
+    border-style:solid;
+    border-color: #dddddd;
+}
+
+.mainContent{
+    padding: 10px 30px 30px 30px;
+    text-align: justify;
+    line-height:2;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.pageTitle{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#indexPic{
+    height:270px;
+    width:200px;
+    float:left;
+    margin: 20px 30px 0px 0px;
+}
+
+.inputBox1{
+width:100%;
+}
+
+.inputBox2{
+width:100%;
+height:400px;
+}
+
+#submitbutton{
+    margin-top: 30px;
+}
+
+.container{
+    height: 288px;
+    width: 384px;
+    margin: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.portfolioImages{
+    height:100%;
+    width:100%;
+    position:absolute;
+    z-index:0;
+}
+
+.portfolioTitle{
+    color:#ffffff;
+    background-color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width:100%;
+    padding: 30px 0 30px 0;
+    position: absolute;
+    bottom: 20px;
+    z-index:1;
+    text-align: center;
+}
+
+.footer{
+    background-color:#666666;
+    border-top-style: solid;
+    border-top-color:#4aaaa5;
+    border-top-width:8px;
+    width:100%;
+    position:fixed;
+    left:0%;
+    bottom:0%;
+    height:100px;
+    z-index:2;
+}
