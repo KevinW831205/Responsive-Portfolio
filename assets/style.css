@@ -180,8 +180,7 @@ height:400px;
 .portfolioImages{
     height:100%;
     width:100%;
-    position:absolute;
-    z-index:0;
+
 }
 
 
@@ -237,8 +236,9 @@ height:400px;
     }
     
     .imgcontainer{
-        height: 188px;
-        width: 254px;
+        height: auto;
+        width: auto;
+        max-width: 254px;
         margin: 10px;
         position: relative;
         display: inline-block;
@@ -323,8 +323,9 @@ height:400px;
     }
 
     .imgcontainer{
-        height: 288px;
-        width: 384px;
+        height: auto;
+        width: auto;
+        max-width: 384px;
         margin: 30px;
         position: relative;
         display: inline-block;
