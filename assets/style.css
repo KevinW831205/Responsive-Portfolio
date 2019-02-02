@@ -75,6 +75,7 @@ header{
 
 #noUL{
     text-decoration: none;
+    color:darkgray;
 }
 
 .leftCell{
