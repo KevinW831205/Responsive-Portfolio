@@ -182,7 +182,7 @@ height:400px;
 
 
 .portfolioImages{
-    height:auto;
+    height:100%;
     width:100%;
 
 }
@@ -375,6 +375,7 @@ height:400px;
     .imgcontainer{
         height: auto;
         width: auto;
+        max-height: 288px;
         max-width: 384px;
         margin: 30px;
         position: relative;
